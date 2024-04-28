@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 2</title>
+    <link rel="shortcut icon" type="x-icon" href="Nike.jpg"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calculator-container">
+      <div class="calculator-keypad">
+        <input
+          type="text"
+          name="answer"
+          id="display"
+          style="
+            background-color: #eee;
+            width: 313px;
+            height: 45px;
+            text-align: right;
+          "
+        />&nbsp;<button class="button" onclick="wipe()">C</button> <br /><br />
+        <button onclick="show('1')">1</button>
+        <button onclick="show('2')">2</button>
+        <button onclick="show('3')">3</button>
+        <button onclick="show('/')" style="width: 39px; height: 44px" value="*">/</button>
+        <br /><br />
+        <button onclick="show('4')">4</button>
+        <button onclick="show('5')">5</button>
+        <button onclick="show('6')">6</button>
+        <button onclick="show('-')" style="width: 39px; height: 44px" value="*">
+          -
+        </button>
+        <br /><br />
+        <button onclick="show('7')">7</button>
+        <button onclick="show('8')">8</button>
+        <button onclick="show('9')">9</button>
+        <button onclick="show('+')" style="width: 39px; height: 44px" value="*">+</button>
+        <br /><br />
+        <button onclick="show('.')">.</button>
+        <button onclick="show('0')">0</button>
+        <button onclick="calc()" style="background-color: red">=</button>
+        <button onclick="show('*')" style="width: 39px; height: 44px" value="*">*</button>
+        <script src="Q2.js">
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
